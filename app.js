@@ -62,6 +62,10 @@ function gameOver(won, msg) {
   message.style.color = color;
   //Message that user won
   setMessage(msg);
+
+  //Play again 
+  guessBtn.value = 'Play Again';
+  guessBtn.className += 'play-again"'
 }
 
 //Set message
